@@ -3,5 +3,18 @@ title: Alexander Koshelev Pages
 description: teaching, seeking, living
 author: Alexander Koshelev
 
+url: "https://magistrshurik.github.io"
+baseurl: "" # У тебя уже страница в корне
+
+markdown: kramdown
+permalink: /:title/
+
 header_pages:
   - about.md
+
+minima:
+  skin: classic
+  social_links:
+    github: magistrshurik
+    email: magistrshurik @gmail.com
+    telegram: https://t.me/magshur

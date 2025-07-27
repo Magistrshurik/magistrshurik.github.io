@@ -7,6 +7,8 @@
 
 body {
   text-align: justify;
+  hyphens: auto;
+  word-wrap: break-word;
 }
 
 h1,
@@ -16,8 +18,4 @@ h4,
 h5,
 h6 {
   text-align: left; // иначе заголовки тоже будут растянуты — что не всегда красиво
-}
-
-.site-description {
-  text-align: right;
 }

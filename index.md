@@ -1,6 +1,4 @@
 ---
 layout: home
-title: Home
+title: home
 ---
-
-Welcome to my blog! I write about physics, mathematics, and thought.

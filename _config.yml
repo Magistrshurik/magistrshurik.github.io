@@ -1,2 +1,7 @@
-title: My Blog
 theme: minima
+title: Alexander Koshelev Pages
+description: teaching, seeking, living
+author: Alexander Koshelev
+
+header_pages:
+  - about.md

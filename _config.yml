@@ -29,6 +29,13 @@ minima:
   #     * solarized-dark     Dark variant of solarized color scheme.
   #     * solarized          Adaptive skin for solarized color scheme skins.
   skin: solarized
+  social_links:
+    - title: My GitHub Pages Blog
+      icon: github
+      url: "https://magistrshurik.github.io/"
+    - title: Stay updated via Telegram
+      icon: telegram
+      url: "https://t.me/magshur"
 
   # Specific pages for site navigation.
   #   If you wish to link only specific pages in the site-navigation, use this and list
@@ -51,10 +58,4 @@ minima:
   #     * title    Tooltip rendered on hovering over icon.
   #     * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
   #     * url      Full URL of social profile.
-  social_links:
-    - title: My GitHub Pages Blog
-      icon: github
-      url: "https://magistrshurik.github.io/"
-    - title: Stay updated via Telegram
-      icon: telegram
-      url: "https://t.me/magshur"
+  

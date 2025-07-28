@@ -59,4 +59,11 @@ minima:
   #     * title    Tooltip rendered on hovering over icon.
   #     * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
   #     * url      Full URL of social profile.
+
+  kramdown:
+  math_engine: mathjax
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine_opts:
+    preview: false
   

@@ -1,7 +1,6 @@
 <ul class="social-media-list">
-  {% assign filtered_links = site.minima.social_links | where_exp: "item",
-  "item.icon != 'rss'" %} {% for entry in filtered_links %} {%- for entry in
-  site.minima.social_links -%}
+  {%- for entry in site.minima.social_links -%} {%- unless entry.icon == "rss"
+  -%}
   <li>
     <a
       rel="me"
@@ -12,7 +11,7 @@
       <span class="grey fa-brands fa-{{ entry.icon }} fa-lg"></span>
     </a>
   </li>
-  {%- endfor -%} {% unless site.minima.hide_site_feed_link %}
+  {%- endunless -%} {%- endfor -%} {% unless site.minima.hide_site_feed_link %}
   <li>
     <a
       href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}"

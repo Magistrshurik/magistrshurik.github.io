@@ -1,4 +1,4 @@
-title: Alexander Koshelev Pages
+title: Logbook
 author:
   name: Alexander Koshelev
   email: magistrshurik@gmail.com
@@ -30,9 +30,6 @@ minima:
   #     * solarized          Adaptive skin for solarized color scheme skins.
   skin: solarized
 
-include:
-  - assets/css
-  
   # Specific pages for site navigation.
   #   If you wish to link only specific pages in the site-navigation, use this and list
   #   the `path` property (as represented via Liquid) of the pages in the order they

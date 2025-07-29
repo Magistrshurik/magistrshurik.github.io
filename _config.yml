@@ -14,7 +14,7 @@ theme: minima
 
 plugins:
   - jekyll-feed
-  - #jekyll-seo-tag
+  - jekyll-seo-tag
 
 sass:
   quiet_deps: true
@@ -60,10 +60,12 @@ minima:
   #     * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
   #     * url      Full URL of social profile.
 
-  kramdown:
-  math_engine: mathjax
+markdown: kramdown
+
+kramdown:
   input: GFM
-  syntax_highlighter: rouge
+  math_engine: mathjax
   math_engine_opts:
-    preview: false
-  
+    preview: TeX
+  parse_block_html: true
+  hard_wrap: false
